@@ -1,3 +1,3 @@
-def calcular_media(notas: list[float]) -> float
+def calcular_media(notas: list[float]) -> float:
     media = sum(notas) /len(notas)
-    return media
+    return round(media, 1)
